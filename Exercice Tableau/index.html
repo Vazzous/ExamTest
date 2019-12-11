@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+	<div class="col">
+		<h2>Ajouter un article</h2>
+		<input type="text" id="produit" placeholder="Nom du Produit"/><br/>
+		<input type="number" id="nombre" placeholder="Nombre d'article"/><br/>
+		<input type="number" id="prix" placeholder="Prix"/><br/>
+		<button onclick="ajout()">Ajouter a mon super panier de noel</button>
+	</div>
+	
+	<div class="col">
+		<h2>Liste</h2>
+		<p>Prix Total : <span id ="total"></span> </p> 
+		<ul id="liste"></ul>
+	</div>
+	
+	<script src="./java/script.js"></script>
+</body>
+	
+</html>
